@@ -10,11 +10,11 @@ from mysql.connector import Error
 from mysql.connector import pooling
 
 dbconfig = { 
-    "host":"localhost",
-    "port":3307,
-    "database":"website",
-    "user":"root",
-    "password":"xu.6ru8u6"}
+    "host":"",
+    "port":3306,
+    "database":"",
+    "user":"",
+    "password":""}
 
 connection_pool = pooling.MySQLConnectionPool(pool_name = "test_pool",
     pool_size = 3,
